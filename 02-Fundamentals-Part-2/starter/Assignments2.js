@@ -109,3 +109,39 @@ console.log(myCountry["population"] - 2000000);
 
 myCountry.describe();
 myCountry.checkIsland();
+
+//ITERATION FOR LOOP
+
+for (let i = 1; i <= 50; i++) {
+  console.log(`Voter number ${i} is currently voting...`);
+}
+
+//LOOPING ARRAYS, BREAK, CONTINUE
+
+let percentages2 = [];
+
+for (let i = 0; i < populations.length; i++) {
+  percentages2.push(percentageOfWorld1(populations[i]));
+}
+
+console.log(percentages2);
+
+//LOOPING BACKWARDS  AND LOOPS IN LOOPS
+
+let listOfNeighbors = [
+  ["Canada", "Mexico"],
+  ["Spain"],
+  ["Norway", "Sweden", "Russia"],
+];
+
+for (let i = 0; i < listOfNeighbors[0].length; i++) {
+  console.log(`Neighbor: ${listOfNeighbors[0][i]}`);
+
+  for (let i = 0; i < listOfNeighbors[1].length; i++) {
+    console.log(`Neighbor: ${listOfNeighbors[1][i]}`);
+
+    for (let i = 0; i < listOfNeighbors[2].length; i++) {
+      console.log(`Neighbor: ${listOfNeighbors[2][i]}`);
+    }
+  }
+}
