@@ -132,3 +132,5 @@ let calcBillAverage = function (arr) {
 };
 
 console.log(calcBillAverage(Totals));
+
+
