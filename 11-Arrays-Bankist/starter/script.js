@@ -73,4 +73,78 @@ const currencies = new Map([
 
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
-/////////////////////////////////////////////////
+//Coding Challenge 1
+
+// 1.
+
+const dogsJulia = [3, 5, 2, 12, 7];
+const dogsKate = [4, 1, 15, 8, 3];
+
+const dogsJulia2 = [9, 16, 6, 8, 3];
+const dogsKate2 = [10, 5, 6, 1, 4];
+
+const checkDogs = function (arr1, arr2) {
+  let newArr = [...arr1.slice(1, 3), ...arr2];
+  return newArr.map((x, i) =>
+    x >= 3
+      ? console.log(`Dog number ${i + 1} is an adult, and is ${x} years old`)
+      : console.log(`Dog number ${i + 1} is still a puppy 🐶`)
+  );
+};
+
+checkDogs(dogsJulia, dogsKate);
+checkDogs(dogsJulia2, dogsKate2);
+
+//2.
+
+const calcAverageHumanAge = function (ages) {
+  return ages
+    .map(age => (age <= 2 ? age * 2 : 16 + age * 4))
+    .filter(age => age >= 18)
+    .reduce((acc, age, _, arr) => acc + age / arr.length, 0);
+};
+
+console.log(calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]));
+console.log(calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]));
+
+//3.
+
+const calcAverageHumanAge2 = ages =>
+  ages
+    .map(age => (age <= 2 ? age * 2 : 16 + age * 4))
+    .filter(age => age >= 18)
+    .reduce((acc, age, _, arr) => acc + age / arr.length, 0);
+
+//4.
+
+// const str = 'wonderfulish';
+// console.log([...str].map((x, i) => i));
+
+// function toWeirdCase(string) {
+//   console.log(([...string].map((ltr, i) =>
+//     i % 2 === 0
+//       ? ltr.replaceAll(ltr, ltr.toUpperCase())
+//       : ltr.replaceAll(ltr, ltr.toLowerCase())
+//   )).join(''));
+// };
+
+// const caseTransform = function (str) {
+//   console.log([...str]);
+// };
+
+function weirdCase(string) {
+  console.log(
+    string
+      .split(' ')
+      .map(word =>
+        [...word]
+          .map((ltr, i) =>
+            i % 2 === 0 ? ltr.toUpperCase() : ltr.toLowerCase()
+          )
+          .join('')
+      )
+      .join(' ')
+  );
+}
+
+weirdCase('This is a test');

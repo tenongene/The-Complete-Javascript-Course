@@ -1,0 +1,25 @@
+24
+113C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\.prettierrc132808960298493425 0
+105C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src132837617070385841 1
+141C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\forkify-architecture-recipe-loading.png132808960298603140 0
+114C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\package.json132837621641026991 0
+130C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\forkify-flowchart-part-1.png132808960298573218 0
+130C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\forkify-flowchart-part-2.png132808960298553267 0
+119C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\package-lock.json132837618912010000 0
+130C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\forkify-flowchart-part-3.png132808960298543299 0
+112C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\index.html132808960298493425 0
+109C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\img132808960298523350 1
+108C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\js132808960298513373 1
+110C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\sass132812449723015995 1
+119C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\img\icons.svg132808960298513373 0
+123C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\sass\_recipe.scss132808960298553267 0
+120C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\sass\main.scss132808960298573218 0
+122C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\js\controller.js132808960298543299 0
+121C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\sass\_base.scss132808960298563241 0
+127C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\sass\_components.scss132808960298563241 0
+123C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\sass\_header.scss132808960298573218 0
+124C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\sass\_preview.scss132808960298573218 0
+130C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\sass\_searchResults.scss132808960298623089 0
+123C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\sass\_upload.scss132808960298603140 0
+121C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\img\favicon.png132808960298503399 0
+118C:\Users\tenon\Documents\Programming\Git Items\Training\complete-javascript-course\18-forkify\starter\src\img\logo.png132808960298523350 0

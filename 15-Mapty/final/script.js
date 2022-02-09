@@ -241,8 +241,7 @@ class App {
           <span class="workout__icon">⏱</span>
           <span class="workout__value">${workout.duration}</span>
           <span class="workout__unit">min</span>
-        </div>
-    `;
+        </div>`;
 
     if (workout.type === 'running')
       html += `
